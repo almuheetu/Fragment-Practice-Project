@@ -33,29 +33,5 @@ class FirstFragment : Fragment() {
         // Toast.makeText(requireContext(), "onViewCreated Called", Toast.LENGTH_SHORT).show()
     }
 
-    override fun onStart() {
-        super.onStart()
-        Log.d("Log404", "onStart Called")
-        // Toast.makeText(requireContext(), "onStart Called", Toast.LENGTH_SHORT).show()
-    }
-
-    override fun onResume() {
-        super.onResume()
-        Log.d("Log404", "onResume Called")
-        //Toast.makeText(requireContext(), "onResume Called", Toast.LENGTH_SHORT).show()
-    }
-
-    override fun onPause() {
-        super.onPause()
-        Log.d("Log404", "onPause Called")
-        // Toast.makeText(requireContext(), "onPause Called", Toast.LENGTH_SHORT).show()
-    }
-
-    override fun onStop() {
-        super.onStop()
-        Log.d("Log404", "onStop Called")
-        // Toast.makeText(requireContext(), "onStop Called", Toast.LENGTH_SHORT).show()
-    }
-
 
 }
