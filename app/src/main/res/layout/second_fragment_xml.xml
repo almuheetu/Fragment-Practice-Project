@@ -4,27 +4,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-
     <TextView
-        android:id="@+id/tv_first_fragment_id"
+        android:id="@+id/tv_second_fragment_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/first_fragment"
-        android:textColor="@color/black"
+        android:text="@string/secondfragment"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-
     <Button
-        android:id="@+id/btn_first_fragment_id"
+        android:id="@+id/btn_second_fragment_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="@string/second_fragment"
+        android:text="@string/next_fragment"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_first_fragment_id" />
+        app:layout_constraintTop_toBottomOf="@id/tv_second_fragment_id" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -2,4 +2,8 @@
     <string name="app_name">Fragment-Practice</string>
 <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="first_fragment">First Fragment</string>
+    <string name="second_fragment"><![CDATA[Second Fragment ->]]></string>
+    <string name="secondfragment">SecondFragment</string>
+    <string name="next_fragment"><![CDATA[Next Fragment ->]]></string>
 </resources>

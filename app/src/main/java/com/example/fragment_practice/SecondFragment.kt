@@ -5,10 +5,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.example.fragment_practice.databinding.FirstFragmentXmlBinding
+import com.example.fragment_practice.databinding.SecondFragmentXmlBinding
 
-class FirstFragment : Fragment() {
-    private lateinit var binding: FirstFragmentXmlBinding
+class SecondFragment : Fragment() {
+    private lateinit var binding: SecondFragmentXmlBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -19,13 +19,12 @@ class FirstFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        binding = FirstFragmentXmlBinding.inflate(inflater, container, false)
+        binding = SecondFragmentXmlBinding.inflate(inflater, container, false)
         return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
-
     }
+
 }
